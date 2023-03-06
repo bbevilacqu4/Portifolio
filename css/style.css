@@ -5,6 +5,7 @@
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
     --cor-quarta: #FFC077;
+    --cor-quinta: #F77E70;
     --cor-hover: #272727;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -109,6 +110,15 @@ body {
     padding: 1rem;
 }
 
+.form-image-redes {
+    width: 50%;
+    display: flex;
+    border-radius: 50px;
+    gap: 15px;
+    background-color: var(--cor-quinta);
+    padding: 1rem;
+}
+
 .form-image img {
     width: 25rem;
     flex-direction: row;
@@ -117,6 +127,14 @@ body {
 }
 
 .form-image-gestao img {
+    width: 25rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    box-shadow: 1px 1px 6px var(--cor-quarta);
+}
+
+.form-image-redes img {
     width: 25rem;
     flex-direction: row;
     flex-wrap: wrap;
