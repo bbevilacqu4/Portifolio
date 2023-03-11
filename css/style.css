@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
-    --cor-quarta: #FFC077;
-    --cor-quinta: #F77E70;
-    --cor-sexta: #25D48A;
-    --cor-setima: #21385D;
+    --cor-colorone: #000000;
+    --cor-colortwo: #F6F6F6;
+    --cor-colorthree: #22D4FD;
+    --cor-colorfour: #FFC077;
+    --cor-colorfive: #F77E70;
+    --cor-colorsix: #25D48A;
+    --cor-colorseven: #21385D;
     --cor-hover: #272727;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -21,8 +21,8 @@
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    background-color: var(--cor-colorone);
+    color: var(--cor-colortwo);
 }
 
 .cabecalho {
@@ -38,7 +38,7 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 600;
-    color: var(--cor-terciaria);
+    color: var(--cor-colorthree);
     text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ body {
     display: flex;
     border-radius: 50px;
     gap: 15px;
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-colorthree);
     padding: 1rem;
 }
 
@@ -109,7 +109,7 @@ body {
     display: flex;
     border-radius: 50px;
     gap: 15px;
-    background-color: var(--cor-quarta);
+    background-color: var(--cor-colorfour);
     padding: 1rem;
 }
 
@@ -118,7 +118,7 @@ body {
     display: flex;
     border-radius: 50px;
     gap: 15px;
-    background-color: var(--cor-quinta);
+    background-color: var(--cor-colorfive);
     padding: 1rem;
 }
 
@@ -127,7 +127,7 @@ body {
     display: flex;
     border-radius: 50px;
     gap: 15px;
-    background-color: var(--cor-setima);
+    background-color: var(--cor-colorseven);
     padding: 1rem;
 }
 
@@ -136,7 +136,7 @@ body {
     display: flex;
     border-radius: 50px;
     gap: 15px;
-    background-color: var(--cor-sexta);
+    background-color: var(--cor-colorsix);
     padding: 1rem;
 }
 
@@ -145,7 +145,7 @@ body {
     display: flex;
     border-radius: 50px;
     gap: 15px;
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-colorthree);
     padding: 1rem;
 }
 
@@ -154,7 +154,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     border-radius: 30px;
-    box-shadow: 1px 1px 6px var(--cor-setima);
+    box-shadow: 1px 1px 6px var(--cor-colorseven);
 }
 
 .form-image-redes img {
@@ -162,7 +162,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     border-radius: 30px;
-    box-shadow: 1px 1px 6px var(--cor-quarta);
+    box-shadow: 1px 1px 6px var(--cor-colorfour);
 }
 
 .form-image-cloud img {
@@ -170,7 +170,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     border-radius: 30px;
-    box-shadow: 1px 1px 6px var(--cor-terciaria);
+    box-shadow: 1px 1px 6px var(--cor-colorseven);
 }
 
 .form-image-dev img {
@@ -178,7 +178,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     border-radius: 30px;
-    box-shadow: 1px 1px 6px var(--cor-sexta);
+    box-shadow: 1px 1px 6px var(--cor-colorsix);
 }
 
 .form-image-front img {
@@ -186,11 +186,11 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     border-radius: 30px;
-    box-shadow: 1px 1px 6px var(--cor-terciaria);
+    box-shadow: 1px 1px 6px var(--cor-colorthree);
 }
 
 .titulo-destaque {
-    color: var(--cor-terciaria);
+    color: var(--cor-colorthree);
 }
 
 .apresentacao_conteudo_texto {
@@ -221,7 +221,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid var(--cor-terciaria);
+    border: 2px solid var(--cor-colorthree);
     width: 378px;
     text-align: center;
     border-radius: 30px;
@@ -229,7 +229,7 @@ body {
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: var(--cor-colortwo);
     font-family: var(--fonte-secundaria);
 }
 
@@ -239,7 +239,7 @@ body {
 
 .rodape {
     color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-colorthree);
     padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
